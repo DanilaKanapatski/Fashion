@@ -1,0 +1,38 @@
+.brands {
+    margin-top: 24px;
+}
+
+.brands-title {
+    text-align: right;
+    padding-right: 98px;
+}
+
+.brands-wrapper {
+    margin-top: 5px;
+    padding: 0 94px 222px 93px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 91px 33px;
+}
+
+.brands-content__title {
+    margin-top: 50px;
+}
+
+.brands-content__desc {
+    margin-top: 36px;
+    max-width: 541px;
+    color: #565859;
+}
+
+.brands-content__link {
+    margin-top: 20px;
+    display: block;
+    cursor: pointer;
+}
+
+.brands-content__img {
+    margin-top: 30px;
+}
+

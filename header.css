@@ -1,0 +1,31 @@
+.header {
+    padding: 26px 67px 26.72px 68px;
+}
+
+.header-mainList {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-list {
+    margin-top: 37.62px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header-list__item-link {
+    color: var(--gray);
+    font-weight: 400;
+}
+
+.header-mainList__icons {
+    display: flex;
+    gap: 35px;
+}
+
+.header-mainList__logo {
+    display: flex;
+    gap: 116px;
+    align-items: center;
+}

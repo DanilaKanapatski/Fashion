@@ -1,0 +1,41 @@
+.contacts {
+    margin: 58px auto 0;
+    padding-bottom: 224px;
+}
+
+.contacts-title {
+    text-align: center;
+}
+
+.contacts-name {
+    margin-top: 55px;
+    color: #565859;
+    text-align: center;
+    font-family: Bitter;
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 150%;
+    letter-spacing: 1.05px;
+}
+
+.contacts-desc {
+    margin-top: 37px;
+    color: #565859;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+    font-family: Bitter;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 150%;
+    letter-spacing: 1.05px;
+}
+
+.contacts-imgs {
+    margin-top: 35px;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+}

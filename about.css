@@ -1,0 +1,29 @@
+.about {
+    margin-top: 105px;
+    padding: 0 237px 170px 215px;
+}
+
+.about-img {
+    display: block;
+    margin: 0 auto;
+}
+
+.about-content {
+    margin-top: 117px;
+    display: flex;
+    gap: 76.5px;
+    flex-direction: column;
+}
+
+.about-title {
+    color: #565859;
+    text-align: justify;
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 150%;
+    letter-spacing: 1.35px;
+}
+
+.about-desc {
+    margin-top: 42px;
+}
