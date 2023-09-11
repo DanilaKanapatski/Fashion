@@ -29,3 +29,41 @@
     gap: 116px;
     align-items: center;
 }
+
+.mobile {
+    display: none;
+}
+
+@media screen and (max-width: 1359px) {
+    .mobile {
+        display: none;
+    }
+
+    .header {
+        padding: 26px 50px 26.72px 50px;
+    }
+
+    .header-mainList__logo {
+        gap: 30px;
+    }
+    
+    .header-mainList__icons {
+        display: flex;
+        gap: 25px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .desctop {
+        display: none;
+    }
+
+    .mobile {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .header {
+        padding: 17px 10px 12.5px;
+    }
+}

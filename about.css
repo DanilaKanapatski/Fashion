@@ -27,3 +27,45 @@
 .about-desc {
     margin-top: 42px;
 }
+
+@media screen and (max-width: 1359px) {
+    .about {
+        margin-top: 50px;
+        padding: 0 50px 50px;
+    }
+    
+    .about-desc {
+        margin-top: 35px;
+    }
+
+    .about-content {
+        margin-top: 50px;
+        gap: 50px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .about {
+        margin-top: 24px;
+        padding: 0 10px 50px;
+    }
+    
+    .about-desc {
+        margin-top: 25px;
+    }
+
+    .about-img {
+        width: 360px;
+        
+        margin: 0 auto;
+    }
+    
+    .about-content {
+        margin-top: 50px;
+        gap: 36.5px;
+    }
+
+    .about-desc {
+        margin-top: 32px;
+    }
+}
