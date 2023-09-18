@@ -17,14 +17,14 @@
 <body>
     <div class="wrapper">
         <header class="header">
-            <nav>
+            <nav class="desctop">
                 <ul class="header-mainList">
                     <li><a href="page-brands.html">Бренды</a></li>
                     <li><a href="page-showrooms.html">Шоурумы</a></li>
                     <li><a href="page-articles.html">Журнал</a></li>
                     <div class="header-mainList__logo">
                         <a href="page-about.html">О проекте</a>
-                        <img src="images/icons/header-logo.svg" alt="">
+                        <a href=""><img src="images/icons/header-logo.svg" alt=""></a>
                         <a href="page-payment.html">Оплата</a>
                     </div>
                     <li><a href="page-delivery.html">Доставка</a></li>
@@ -35,9 +35,9 @@
                     </div>
                 </ul>
                 <ul class="header-list">
-                    <li class="header-list__item"><a class="header-list__item-link link">Каталог</a></li>
-                    <li class="header-list__item"><a class="link header-list__item-link">Женщинам</a></li>
-                    <li class="header-list__item"><a class="link header-list__item-link">Мужчинам</a></li>
+                    <li class="header-list__item cat"><a class="header-list__item-link link">Каталог</a></li>
+                    <li class="header-list__item ppl"><a class="link header-list__item-link">Женщинам</a></li>
+                    <li class="header-list__item ppl"><a class="link header-list__item-link">Мужчинам</a></li>
                     <li class="header-list__item"><a class="link header-list__item-link">Новинки</a></li>
                     <li class="header-list__item"><a class="link header-list__item-link">Дисконт</a></li>
                     <li class="header-list__item"><a class="link header-list__item-link">Одежда</a></li>
@@ -45,8 +45,63 @@
                     <li class="header-list__item"><a class="link header-list__item-link">Аксессуары</a></li>
                 </ul>
             </nav>
+         
         </header>
-        </вшм>
+        <header class="header-mob">
+            <div class="header__container">
+                
+                <div class="header__menu menu">
+                    <div class="menu__icon">
+                        <span></span>
+                    </div>
+                    <nav class="menu__body">
+                        <ul class="menu__list">
+                            <li>
+                                <a class="menu__link" href="page-catalog.html">Каталог</a>
+                                <span class="menu__arrow"></span>
+                                <ul class="menu__sub-list">
+                                    <li><a class="menu__sub-link" href="page-catalog.html">Мужчинам</a></li>
+                                    <li><a class="menu__sub-link" href="page-catalog.html">Женщинам</a></li>
+                                    <li><a class="menu__sub-link" href="page-catalog.html">Новинки</a></li>
+                                    <li><a class="menu__sub-link" href="page-catalog.html">Дисконт</a></li>
+                                    <li><a class="menu__sub-link" href="page-catalog.html">Одежда</a></li>
+                                    <li><a class="menu__sub-link" href="page-catalog.html">Обувь</a></li>
+                                    <li><a class="menu__sub-link" href="page-catalog.html">Аксессуары</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a class="menu__link" href="page-brands.html">Бренды</a>
+                                <span class="menu__arrow"></span>
+                                <ul class="menu__sub-list">
+                                    <li><a class="menu__sub-link" href="page-brand.html">Astorflex</a></li>
+                                    <li><a class="menu__sub-link" href="page-brand.html">Berwich</a></li>
+                                    <li><a class="menu__sub-link" href="page-brand.html">Drumohr</a></li>
+                                    <li><a class="menu__sub-link" href="page-brand.html">Fedeli</a></li>
+                                    <li><a class="menu__sub-link" href="page-brand.html">Gran Sasso</a></li>
+                                    <li><a class="menu__sub-link" href="page-brand.html">Incotex</a></li>
+                                    <li><a class="menu__sub-link" href="page-brand.html">Werner Christ</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="menu__link" href="page-showrooms.html">Шоурумы</a></li>
+                            <li> <a class="menu__link" href="page-articles.html">Журнал</a></li>
+                            <li><a class="menu__link" href="page-about.html">О проекте</a></li>
+                            <li><a class="menu__link" href="page-payment.html">Оплата</a></li>
+                            <li><a class="menu__link" href="page-delivery.html">Доставка</a></li>
+                            <li><a class="menu__link" href="page-contract.html">Договор оферты</a></li>
+                            <li><a class="menu__link" href="page-policy.html">Политика конфиденциальности</a></li>
+                            <li><a class="menu__link" href="page-contacts.html">Контакты</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <a class="header__logo" href="index.html">
+                    <img src="./images/icons/header-logo.svg" alt="header-logo">
+                </a>
+                <a class="header__logo" href="index.html">
+                    <img src="./images/icons/bag.svg" alt="header-logo">
+                </a>
+            </div>
+        </header>
+    </div>
 
         <div class="wrapper">
             <div class="pages">
@@ -57,6 +112,7 @@
                 <h2 class="showrooms-title title">Шоурумы</h2>
                 <div class="showroom-wrapper">
                     <div class="showroom">
+                        <h3 class="showroom-content__title showroom-mob">Dolce & Gabbana</h3>
                         <div class="showroom-imgs">
                             <img src="images/showrooms-1.png" alt="">
                             <div class="showroom-imgs__small">
@@ -66,7 +122,7 @@
                             </div>
                         </div>
                         <div class="showroom-content">
-                            <h3 class="showroom-content__title">Dolce & Gabbana</h3>
+                            <h3 class="showroom-content__title showroom-desc">Dolce & Gabbana</h3>
                             <p class="showroom-content__address">Минск, пр. Независимости, 71 </p>
                             <p class="showroom-content__text desc">Время работы</p>
                             <p class="showroom-content__time desc">пн-сб: с 10.00 до 21.00</p>
@@ -76,10 +132,11 @@
                                 формировании экспериментов, поражающих по своей масштабности и грандиозности.
                                 Учитывая ключевые сценарии поведения, выбранный нами инновационный путь играет важную роль в
                                 формировании экспериментов, поражающих по своей масштабности и грандиозности.</p>
-                            <a class="showroom-content__link pages-main" href="">в каталог бренда</a>
+                            <a class="showroom-content__link pages-main" href="page-catalog.html">в каталог бренда</a>
                         </div>
                     </div>
                     <div class="showroom">
+                        <h3 class="showroom-content__title showroom-mob">Dolce & Gabbana</h3>
                         <div class="showroom-imgs">
                             <img src="images/showrooms-1.png" alt="">
                             <div class="showroom-imgs__small">
@@ -89,7 +146,7 @@
                             </div>
                         </div>
                         <div class="showroom-content">
-                            <h3 class="showroom-content__title">Dolce & Gabbana</h3>
+                            <h3 class="showroom-content__title showroom-desc">Dolce & Gabbana</h3>
                             <p class="showroom-content__address">Минск, пр. Независимости, 71 </p>
                             <p class="showroom-content__text desc">Время работы</p>
                             <p class="showroom-content__time desc">пн-сб: с 10.00 до 21.00</p>
@@ -99,10 +156,11 @@
                                 формировании экспериментов, поражающих по своей масштабности и грандиозности.
                                 Учитывая ключевые сценарии поведения, выбранный нами инновационный путь играет важную роль в
                                 формировании экспериментов, поражающих по своей масштабности и грандиозности.</p>
-                            <a class="showroom-content__link pages-main" href="">в каталог бренда</a>
+                            <a class="showroom-content__link pages-main" href="page-catalog.html">в каталог бренда</a>
                         </div>
                     </div>
                     <div class="showroom">
+                        <h3 class="showroom-content__title showroom-mob">Dolce & Gabbana</h3>
                         <div class="showroom-imgs">
                             <img src="images/showrooms-1.png" alt="">
                             <div class="showroom-imgs__small">
@@ -112,7 +170,7 @@
                             </div>
                         </div>
                         <div class="showroom-content">
-                            <h3 class="showroom-content__title">Dolce & Gabbana</h3>
+                            <h3 class="showroom-content__title showroom-desc">Dolce & Gabbana</h3>
                             <p class="showroom-content__address">Минск, пр. Независимости, 71 </p>
                             <p class="showroom-content__text desc">Время работы</p>
                             <p class="showroom-content__time desc">пн-сб: с 10.00 до 21.00</p>
@@ -122,7 +180,7 @@
                                 формировании экспериментов, поражающих по своей масштабности и грандиозности.
                                 Учитывая ключевые сценарии поведения, выбранный нами инновационный путь играет важную роль в
                                 формировании экспериментов, поражающих по своей масштабности и грандиозности.</p>
-                            <a class="showroom-content__link pages-main" href="">в каталог бренда</a>
+                            <a class="showroom-content__link pages-main" href="page-catalog.html">в каталог бренда</a>
                         </div>
                     </div>
                 </div>
@@ -178,5 +236,5 @@
             </div>
         </footer>
 </body>
-
+<script src="js/header.js"></script>
 </html>

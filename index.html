@@ -17,14 +17,14 @@
 <body>
     <div class="wrapper">
         <header class="header">
-            <nav>
+            <nav class="desctop">
                 <ul class="header-mainList">
                     <li><a href="page-brands.html">Бренды</a></li>
                     <li><a href="page-showrooms.html">Шоурумы</a></li>
                     <li><a href="page-articles.html">Журнал</a></li>
                     <div class="header-mainList__logo">
                         <a href="page-about.html">О проекте</a>
-                        <img src="images/icons/header-logo.svg" alt="">
+                        <a href=""><img src="images/icons/header-logo.svg" alt=""></a>
                         <a href="page-payment.html">Оплата</a>
                     </div>
                     <li><a href="page-delivery.html">Доставка</a></li>
@@ -35,9 +35,9 @@
                     </div>
                 </ul>
                 <ul class="header-list">
-                    <li class="header-list__item"><a class="header-list__item-link link">Каталог</a></li>
-                    <li class="header-list__item"><a class="link header-list__item-link">Женщинам</a></li>
-                    <li class="header-list__item"><a class="link header-list__item-link">Мужчинам</a></li>
+                    <li class="header-list__item cat"><a class="header-list__item-link link">Каталог</a></li>
+                    <li class="header-list__item ppl"><a class="link header-list__item-link">Женщинам</a></li>
+                    <li class="header-list__item ppl"><a class="link header-list__item-link">Мужчинам</a></li>
                     <li class="header-list__item"><a class="link header-list__item-link">Новинки</a></li>
                     <li class="header-list__item"><a class="link header-list__item-link">Дисконт</a></li>
                     <li class="header-list__item"><a class="link header-list__item-link">Одежда</a></li>
@@ -45,14 +45,69 @@
                     <li class="header-list__item"><a class="link header-list__item-link">Аксессуары</a></li>
                 </ul>
             </nav>
+
         </header>
-        </вшм>
+        <header class="header-mob">
+            <div class="header__container">
+
+                <div class="header__menu menu">
+                    <div class="menu__icon">
+                        <span></span>
+                    </div>
+                    <nav class="menu__body">
+                        <ul class="menu__list">
+                            <li>
+                                <a class="menu__link" href="page-catalog.html">Каталог</a>
+                                <span class="menu__arrow"></span>
+                                <ul class="menu__sub-list">
+                                    <li><a class="menu__sub-link" href="page-catalog.html">Мужчинам</a></li>
+                                    <li><a class="menu__sub-link" href="page-catalog.html">Женщинам</a></li>
+                                    <li><a class="menu__sub-link" href="page-catalog.html">Новинки</a></li>
+                                    <li><a class="menu__sub-link" href="page-catalog.html">Дисконт</a></li>
+                                    <li><a class="menu__sub-link" href="page-catalog.html">Одежда</a></li>
+                                    <li><a class="menu__sub-link" href="page-catalog.html">Обувь</a></li>
+                                    <li><a class="menu__sub-link" href="page-catalog.html">Аксессуары</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a class="menu__link" href="page-brands.html">Бренды</a>
+                                <span class="menu__arrow"></span>
+                                <ul class="menu__sub-list">
+                                    <li><a class="menu__sub-link" href="page-brand.html">Astorflex</a></li>
+                                    <li><a class="menu__sub-link" href="page-brand.html">Berwich</a></li>
+                                    <li><a class="menu__sub-link" href="page-brand.html">Drumohr</a></li>
+                                    <li><a class="menu__sub-link" href="page-brand.html">Fedeli</a></li>
+                                    <li><a class="menu__sub-link" href="page-brand.html">Gran Sasso</a></li>
+                                    <li><a class="menu__sub-link" href="page-brand.html">Incotex</a></li>
+                                    <li><a class="menu__sub-link" href="page-brand.html">Werner Christ</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="menu__link" href="page-showrooms.html">Шоурумы</a></li>
+                            <li> <a class="menu__link" href="page-articles.html">Журнал</a></li>
+                            <li><a class="menu__link" href="page-about.html">О проекте</a></li>
+                            <li><a class="menu__link" href="page-payment.html">Оплата</a></li>
+                            <li><a class="menu__link" href="page-delivery.html">Доставка</a></li>
+                            <li><a class="menu__link" href="page-contract.html">Договор оферты</a></li>
+                            <li><a class="menu__link" href="page-policy.html">Политика конфиденциальности</a></li>
+                            <li><a class="menu__link" href="page-contacts.html">Контакты</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <a class="header__logo" href="index.html">
+                    <img src="./images/icons/header-logo.svg" alt="header-logo">
+                </a>
+                <a class="header__logo" href="index.html">
+                    <img src="./images/icons/bag.svg" alt="header-logo">
+                </a>
+            </div>
+        </header>
+    </div>
 
         <div class="wrapper">
             <ul class="main-slider">
                 <li><img src="images/main-1.png" alt=""></li>
-                <li><img src="images/main-2.png" alt=""></li>
-                <li><img src="images/main-3.png" alt=""></li>
+                <li><img class="no" src="images/main-2.png" alt=""></li>
+                <li><img class="no" src="images/main-3.png" alt=""></li>
             </ul>
             <div class="main-wrapper">
                 <div class="main-content">
@@ -118,7 +173,7 @@
                     </li>
 
                 </ul>
-                <a class="main-goods__link pages-main" href="page-articles.html">другие новинки</a>
+                <a class="main-goods__link pages-main" href="page-catalog.html">другие новинки</a>
             </div>
             <div class="main-discount">
                 <h2 class="main-discount__title title">Дисконт</h2>
@@ -132,7 +187,7 @@
                             <button class="main-discount__list-btn">В корзину</button>
                         </div>
                     </li>
-                    <li>
+                    <li class="no">
                         <img src="images/brand-1.png" alt="">
                         <h3 class="main-discount__list-subtitle">Dolce & Gabbana</h3>
                         <p class="main-discount__list-text">Яркое платье из кашемира</p>
@@ -141,7 +196,7 @@
                             <button class="main-discount__list-btn">В корзину</button>
                         </div>
                     </li>
-                    <li>
+                    <li class="no">
                         <img src="images/brand-2.png" alt="">
                         <h3 class="main-discount__list-subtitle">Dolce & Gabbana</h3>
                         <p class="main-discount__list-text">Яркое платье из кашемира</p>
@@ -150,7 +205,7 @@
                             <button class="main-discount__list-btn">В корзину</button>
                         </div>
                     </li>
-                    <li>
+                    <li class="no">
                         <img src="images/brand-3.png" alt="">
                         <h3 class="main-discount__list-subtitle">Dolce & Gabbana</h3>
                         <p class="main-discount__list-text">Яркое платье из кашемира</p>
@@ -159,7 +214,7 @@
                             <button class="main-discount__list-btn">В корзину</button>
                         </div>
                     </li>
-                    <li>
+                    <li class="no">
                         <img src="images/brand-3.png" alt="">
                         <h3 class="main-discount__list-subtitle">Dolce & Gabbana</h3>
                         <p class="main-discount__list-text">Яркое платье из кашемира</p>
@@ -170,11 +225,11 @@
                     </li>
 
                 </ul>
-                <a class="main-discount__link pages-main" href="page-articles.html">больше товаров</a>
+                <a class="main-discount__link pages-main" href="page-catalog.html">больше товаров</a>
             </div>
             <div class="main-brands">
                 <h2 class="brands-title title">Бренды</h2>
-                <div class="brands-wrapper">
+                <div class="brands-wrapper brands-desc">
                     <div class="brands-first">
                         <h3 class="brands-content__title subtitle">Dolce & Gabbana</h3>
                         <p class="brands-content__desc desc">Учитывая ключевые сценарии поведения, выбранный нами
@@ -191,41 +246,69 @@
                             масштабности и грандиозности.</p>
                         <a class="brands-content__link pages-main" href="page-brand.html">подробнее</a>
                     </div>
-                    <a class="main-brands__link" href="page-brands.html">все бренды</a>
-            </div>
+                    <a class="main-brands__link no" href="page-brands.html">все бренды</a>
+                </div>
+                <div class="brands-wrapper brands-mob">
+                    <div class="brands-first">
+                        <h3 class="brands-content__title subtitle">Dolce & Gabbana</h3>
+                        <img class="brands-content__img" src="images/brands-1.png" alt="">
+                        <p class="brands-content__desc desc">Учитывая ключевые сценарии поведения, выбранный нами
+                            инновационный путь играет важную роль в формировании экспериментов, поражающих по своей
+                            масштабности и грандиозности.</p>
+                        <a class="brands-content__link pages-main" href="page-brand.html">подробнее</a>
+                    </div>
+                    <div class="brands-second">
+                        <h3 class="brands-content__title subtitle">Dolce & Gabbana</h3>
+                        <img src="images/brands-2.png" alt="">
+                        <p class="brands-content__desc desc">Учитывая ключевые сценарии поведения, выбранный нами
+                            инновационный путь играет важную роль в формировании экспериментов, поражающих по своей
+                            масштабности и грандиозности.</p>
+                        <a class="brands-content__link pages-main" href="page-brand.html">подробнее</a>
+                    </div>
+                    <a class="main-brands__link no" href="page-brands.html">все бренды</a>
+                </div>
             <div class="main-showrooms">
                 <div class="showrooms-wrapper">
                     <h3 class="main-showrooms__title title">Шоурумы</h3>
                     <p class="main-showrooms__desc desc">Каждый из нас понимает очевидную вещь: граница обучения кадров требует определения и уточнения экономической целесообразности принимаемых решений. Приятно, граждане, наблюдать, как независимые государства набирают популярность среди определенных слоев населения, а значит, должны быть призваны к ответу! 
                     </p>
-                    <a class="main-showrooms__link pages-main" href="">все шоурумы</a>
+                    <a class="main-showrooms__link pages-main showrooms-desc" href="page-showrooms.html">все шоурумы</a>
                 </div>
                
                 <img src="images/main-5.png" alt="">
+                <a class="main-showrooms__link pages-main showrooms-mob" href="page-showrooms.html">все шоурумы</a>
             </div>
             <div class="article-news">
                 <h2 class="article-news__title title">Журнал</h2>
                 <ul class="article-news__list">
-                    <li>
-                        <img src="images/article-2.png" alt="">
-                        <p class="article-news__list-data">01.12.23</p>
-                        <p class="article-news__list-text link">Новости с недели моды в Милане.</p>
-                    </li>
-                    <li>
-                        <img src="images/article-3.png" alt="">
-                        <p class="article-news__list-data">01.12.23</p>
-                        <p class="article-news__list-text link">Новости с недели моды в Милане.</p>
-                    </li>
-                    <li>
-                        <img src="images/article-4.png" alt="">
-                        <p class="article-news__list-data">01.12.23</p>
-                        <p class="article-news__list-text link">Новости с недели моды в Милане.</p>
-                    </li>
-                    <li>
-                        <img src="images/article-5.png" alt="">
-                        <p class="article-news__list-data">01.12.23</p>
-                        <p class="article-news__list-text link">Новости с недели моды в Милане.</p>
-                    </li>
+                    <a href="page-article.html">
+                        <li>
+                            <img src="images/article-2.png" alt="">
+                            <p class="article-news__list-data">01.12.23</p>
+                            <p class="article-news__list-text link">Новости с недели моды в Милане.</p>
+                        </li>
+                    </a>
+                    <a href="page-article.html">
+                        <li>
+                            <img src="images/article-3.png" alt="">
+                            <p class="article-news__list-data">01.12.23</p>
+                            <p class="article-news__list-text link">Новости с недели моды в Милане.</p>
+                        </li>
+                    </a>
+                   <a href="page-article.html">
+                        <li>
+                            <img src="images/article-4.png" alt="">
+                            <p class="article-news__list-data">01.12.23</p>
+                            <p class="article-news__list-text link">Новости с недели моды в Милане.</p>
+                        </li>
+                   </a>
+                   <a href="page-article.html">
+                        <li>
+                            <img src="images/article-5.png" alt="">
+                            <p class="article-news__list-data">01.12.23</p>
+                            <p class="article-news__list-text link">Новости с недели моды в Милане.</p>
+                        </li>
+                   </a>
                 </ul>
                 <a class="article-news__link pages-main" href="page-articles.html">все статьи</a>
            </div>
@@ -280,5 +363,5 @@
             </div>
         </footer>
 </body>
-
+<script src="js/header.js"></script>
 </html>

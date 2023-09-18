@@ -36,3 +36,20 @@
 .articles-list__link {
     cursor: pointer;
 }
+
+@media screen and (max-width: 900px) {
+    .articles {
+        padding-bottom: 148px;
+    }
+    
+    .articles-title {
+        padding-right: 30px;
+    }
+    
+    .articles-list {
+        margin-top: 81px;
+        padding: 0 10px 0;
+        justify-content: center;
+        gap: 60px 30px;
+    }
+}
