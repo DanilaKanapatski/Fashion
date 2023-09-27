@@ -1,3 +1,45 @@
+.swiper {
+    padding: 0 72px;
+}
+
+.bb {
+    margin-top: 50px;
+    padding: 0 24px;
+}
+
+/* .swiper-wrapper {
+    padding: 0 52px;
+ 
+} */
+
+.swiper-slide{
+    width: 213px;
+}
+
+.image-slider1 .swiper-button-prev {
+    content: url(/Fashion/images/icons/arr-1.svg);
+    width: 20px;
+    height: 20px;
+    left: 0;
+}
+
+.image-slider1 .swiper-button-next {
+    content: url(/Fashion/images/icons/arr-2.svg);
+    width: 20px;
+    height: 20px;
+    right: 0;
+}
+
+.swiper-slide img {
+    border-radius: 5px;
+    border: 0.5px solid var(--light-brown);
+    width: 100%;
+}
+
+.itm {
+    display: none;
+}
+
 .item-wrapper {
     margin-top: 26px;
     display: flex;
@@ -38,7 +80,7 @@
 .item-content__desc {
     margin-top: 18px;
     color: #565859;
-    text-align: justify;
+    text-align: left;
     font-size: 16px;
     font-weight: 300;
     line-height: 150%;
@@ -64,15 +106,14 @@
 
 .item-content__btn {
     margin-top: 25px;
-    width: 206px;
     border-radius: 12px;
     background: #565859;
     display: block;
     color: #FFF;
-    font-size: 30px;
+    font-size: 24px;
     font-weight: 400;
-    letter-spacing: 1.5px;
-    padding: 4px 22px 11px;
+    letter-spacing: 0.9px;
+    padding: 4px 16px;
 }
 
 .item-info {
@@ -99,7 +140,7 @@
     color: #565859;
     text-align: justify;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 300;
     line-height: 150%;
     letter-spacing: 0.8px;
 }
@@ -116,12 +157,12 @@
 }
 
 .pr {
-    margin: 0 auto;
+    margin: 90px auto 0;
     text-align: center;
 }
 
 .bt {
-    margin: 0 auto;
+    margin: 32px auto 0;
 }
 
 .main-goods {
@@ -137,6 +178,11 @@
     display: flex;
     gap: 30px;
     justify-content: center;
+}
+
+.main-goods__list img {
+    border-radius: 5px;
+    border: 0.5px solid var(--light-brown);
 }
 
 .main-goods__list-subtitle {
@@ -253,6 +299,27 @@
 
 
 @media screen and (max-width: 900px) {
+    .bb {
+        margin-top: 24px;
+        padding: 0 10px;
+    }
+
+    .swiper {
+        padding: 0 88px;
+    }
+
+    .swiper-slide{
+        width: 165px;
+    }
+
+    .pages p {
+        display: none;
+    }
+
+    .itm {
+        display: block;
+    }
+
     .main-goods {
         margin-top: 88px;
         padding: 0 10px;
@@ -415,7 +482,7 @@
     .item-content__desc {
         margin-top: 18px;
         color: #565859;
-        text-align: justify;
+        text-align: left;
         font-size: 16px;
         font-weight: 300;
         line-height: 150%;
@@ -433,7 +500,7 @@
     .item-content__price {
         margin-top: 41px;
         color: #565859;
-        font-size: 27px;
+        font-size: 24px;
         font-weight: 600;
         line-height: normal;
         letter-spacing: 1.35px;
@@ -475,9 +542,9 @@
         gap: 12px;
         flex-direction: column;
         color: #565859;
-        text-align: justify;
+        text-align: left;
         font-size: 16px;
-        font-weight: 500;
+        font-weight: 300;
         line-height: 150%;
         letter-spacing: 0.8px;
     }

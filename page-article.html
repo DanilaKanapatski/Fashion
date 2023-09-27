@@ -7,7 +7,8 @@
     <title>Fashion</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@100;200;300;400;500;600&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="acticle.css">
@@ -24,32 +25,46 @@
                     <li><a href="page-articles.html">Журнал</a></li>
                     <div class="header-mainList__logo">
                         <a href="page-about.html">О проекте</a>
-                        <a href=""><img src="images/icons/header-logo.svg" alt=""></a>
-                        <a href="page-payment.html">Оплата</a>
+                        <div class="header-mainList-block2">
+                            <a href="index.html"><img src="images/icons/header-logo.svg" alt=""></a>
+                            <a href="page-payment.html">Оплата</a>
+                        </div>
                     </div>
-                    <li><a href="page-delivery.html">Доставка</a></li>
-                    <div class="header-mainList__icons">
-                        <img src="images/icons/search.svg" alt="">
-                        <img src="images/icons/profile.svg" alt="">
-                        <img src="images/icons/bag.svg" alt="">
+                    <div class="header-mainList-block3">
+                        <li><a href="page-delivery.html">Доставка</a></li>
+                        <div class="header-mainList__icons">
+                            <img src="images/icons/search.svg" alt="">
+                            <img src="images/icons/profile.svg" alt="">
+                            <img src="images/icons/bag.svg" alt="">
+                        </div>
                     </div>
                 </ul>
                 <ul class="header-list">
-                    <li class="header-list__item cat"><a class="header-list__item-link link">Каталог</a></li>
-                    <li class="header-list__item ppl"><a class="link header-list__item-link">Женщинам</a></li>
-                    <li class="header-list__item ppl"><a class="link header-list__item-link">Мужчинам</a></li>
-                    <li class="header-list__item"><a class="link header-list__item-link">Новинки</a></li>
-                    <li class="header-list__item"><a class="link header-list__item-link">Дисконт</a></li>
-                    <li class="header-list__item"><a class="link header-list__item-link">Одежда</a></li>
-                    <li class="header-list__item"><a class="link header-list__item-link">Обувь</a></li>
-                    <li class="header-list__item"><a class="link header-list__item-link">Аксессуары</a></li>
+                    <div class="header-mainList-block1">
+                        <li class="header-list__item cat"><a class="header-list__item-link link"
+                                href="page-catalog.html">Каталог</a></li>
+                        <li class="header-list__item ppl"><a class="link header-list__item-link"
+                                href="page-catalog.html">Женщинам</a></li>
+                    </div>
+                    <li class="header-list__item ppl"><a class="link header-list__item-link"
+                            href="page-catalog.html">Мужчинам</a></li>
+                    <li class="header-list__item"><a class="link header-list__item-link"
+                            href="page-catalog.html">Новинки</a></li>
+                    <li class="header-list__item"><a class="link header-list__item-link"
+                            href="page-catalog.html">Дисконт</a></li>
+                    <li class="header-list__item"><a class="link header-list__item-link"
+                            href="page-catalog.html">Одежда</a></li>
+                    <li class="header-list__item"><a class="link header-list__item-link"
+                            href="page-catalog.html">Обувь</a></li>
+                    <li class="header-list__item"><a class="link header-list__item-link"
+                            href="page-catalog.html">Аксессуары</a></li>
                 </ul>
             </nav>
-         
+
         </header>
         <header class="header-mob">
             <div class="header__container">
-                
+
                 <div class="header__menu menu">
                     <div class="menu__icon">
                         <span></span>
@@ -91,121 +106,142 @@
                             <li><a class="menu__link" href="page-policy.html">Политика конфиденциальности</a></li>
                             <li><a class="menu__link" href="page-contacts.html">Контакты</a></li>
                         </ul>
+                        <div class="header-imgs">
+                            <img src="images/icons/header-inst.svg" alt="">
+                            <img src="images/icons/header-tt.svg" alt="">
+                        </div>
                     </nav>
                 </div>
                 <a class="header__logo" href="index.html">
-                    <img src="./images/icons/header-logo.svg" alt="header-logo">
+                    <img src="./images/icons/header-logo.svg" width='150px' alt="header-logo">
                 </a>
                 <a class="header__logo" href="index.html">
-                    <img src="./images/icons/bag.svg" alt="header-logo">
+                    <img src="./images/icons/profile.svg" alt="header-logo">
                 </a>
             </div>
         </header>
     </div>
 
-        <div class="wrapper">
-            <div class="pages">
-                <p><span class="pages-main">Главная - </span><span class="pages-current">Журнал</span>
-                </p>
-            </div>
-            <section class="article">
-                <div class="article-content">
-                    <h2 class="article-content__title title">Розовый — цвет любви и свободы, настаивает Пьерпаоло Пиччоли.
-                        30 вещей в палитре новой коллекции Valentino
-                    </h2>
-                    <img class="article-content__img" src="images/acrticle-1.png" alt="">
-                    <div class="about-content__desc desc">
-                        <p>Приятно, граждане, наблюдать, как представители современных социальных резервов могут быть
-                            обнародованы. Следует отметить, что начало повседневной работы по формированию позиции требует
-                            от нас анализа первоочередных требований. Высокий уровень вовлечения представителей целевой
-                            аудитории является четким доказательством простого факта: убеждённость некоторых оппонентов
-                            играет важную роль в формировании вывода текущих активов. Безусловно, разбавленное изрядной
-                            долей эмпатии, рациональное мышление создаёт необходимость включения в производственный план
-                            целого ряда внеочередных мероприятий с учётом комплекса благоприятных перспектив.</p>
-                        <p>Безусловно, постоянное информационно-пропагандистское обеспечение нашей деятельности является
-                            качественно новой ступенью анализа существующих паттернов поведения. И нет сомнений, что
-                            сделанные на базе интернет-аналитики выводы объявлены нарушающими общечеловеческие нормы этики и
-                            морали. В рамках спецификации современных стандартов, ключевые особенности структуры проекта
-                            объявлены нарушающими общечеловеческие нормы этики и морали.</p>
-                    </div>
+    <div class="wrapper">
+        <div class="pages">
+            <p><a href="index.html"><span class="pages-main">Главная - </span></a><a href="page-article.html"><span
+                        class="pages-current">Журнал</span></a>
+            </p>
+        </div>
+        <section class="article">
+            <div class="article-content">
+                <h2 class="article-content__title title">Розовый — цвет любви и свободы, настаивает Пьерпаоло Пиччоли.
+                    30 вещей в палитре новой коллекции Valentino
+                </h2>
+                <img class="article-content__img" src="images/acrticle-1.png" alt="">
+                <div class="about-content__desc desc">
+                    <p>Приятно, граждане, наблюдать, как представители современных социальных резервов могут быть
+                        обнародованы. Следует отметить, что начало повседневной работы по формированию позиции требует
+                        от нас анализа первоочередных требований. Высокий уровень вовлечения представителей целевой
+                        аудитории является четким доказательством простого факта: убеждённость некоторых оппонентов
+                        играет важную роль в формировании вывода текущих активов. Безусловно, разбавленное изрядной
+                        долей эмпатии, рациональное мышление создаёт необходимость включения в производственный план
+                        целого ряда внеочередных мероприятий с учётом комплекса благоприятных перспектив.</p>
+                    <p>Безусловно, постоянное информационно-пропагандистское обеспечение нашей деятельности является
+                        качественно новой ступенью анализа существующих паттернов поведения. И нет сомнений, что
+                        сделанные на базе интернет-аналитики выводы объявлены нарушающими общечеловеческие нормы этики и
+                        морали. В рамках спецификации современных стандартов, ключевые особенности структуры проекта
+                        объявлены нарушающими общечеловеческие нормы этики и морали.</p>
                 </div>
-               <div class="article-news">
-                    <h2 class="article-news__title title">Другие материалы</h2>
-                    <ul class="article-news__list">
+            </div>
+            <div class="article-news">
+                <h2 class="article-news__title title">Другие материалы</h2>
+                <ul class="article-news__list">
+                    <a href="page-article.html">
                         <li>
                             <img src="images/article-2.png" alt="">
                             <p class="article-news__list-data">01.12.23</p>
                             <p class="article-news__list-text link">Новости с недели моды в Милане.</p>
                         </li>
-                        <li>
+                    </a>
+                    <a href="page-article.html">
+                        <li style="
+                            border: 0.5px solid #D2AD95;
+                            background: #FFF;
+                            padding: 18px 10px 29px;
+                            margin-top: -18px;
+                        ">
                             <img src="images/article-3.png" alt="">
                             <p class="article-news__list-data">01.12.23</p>
                             <p class="article-news__list-text link">Новости с недели моды в Милане.</p>
                         </li>
+                    </a>
+                    <a href="page-article.html">
                         <li>
                             <img src="images/article-4.png" alt="">
                             <p class="article-news__list-data">01.12.23</p>
                             <p class="article-news__list-text link">Новости с недели моды в Милане.</p>
                         </li>
+                    </a>
+                    <a href="page-article.html">
                         <li>
                             <img src="images/article-5.png" alt="">
                             <p class="article-news__list-data">01.12.23</p>
                             <p class="article-news__list-text link">Новости с недели моды в Милане.</p>
                         </li>
-                    </ul>
-                    <a class="article-news__link pages-main" href="page-articles.html">все статьи</a>
-               </div>
-            </section>
-        </div>
-
-        <footer class="footer">
-            <div class="wrapper">
-                <div class="footer-content">
-                    <div class="footer-contacts desc">
-                        <p>ООО “ФэшнФьюжн”</p>
-                        <p>УНП 99999988</p>
-                        <p>+375 44 510 61 71</p>
-                        <p>Минск, пр. Независимости, 65</p>
-                        <p>fashionfusion@gmail.com</p>
-                        <div class="footer-contacts__imgs">
-                            <img src="images/icons/instagram.svg" alt="">
-                            <img src="images/icons/tiktok.svg" alt="">
-                        </div>
-                    </div>
-                    <ul class="footer-nav">
-                        <li>
-                            <ul class="footer-list">
-                                <li><a class="link" href="">Мужчинам</a></li>
-                                <li><a class="link" href="">Женщинам</a></li>
-                                <li><a class="link" href="">Новинки</a></li>
-                                <li><a class="link" href="">Дисконт</a></li>
-                                <li><a class="link" href="">Одежда</a></li>
-                                <li><a class="link" href="">Обувь</a></li>
-                                <li><a class="link" href="">Аксессуары</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <ul class="footer-list">
-                                <li><a class="link" href="page-brands.html">Бренды</a></li>
-                                <li><a class="link" href="page-showrooms.html">Шоурумы</a></li>
-                                <li><a class="link" href="page-articles.html">Журнал</a></li>
-                                <li><a class="link" href="page-about.html">О проекте</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <ul class="footer-list">
-                                <li><a class="link" href="page-payment.html">Оплата</a></li>
-                                <li><a class="link" href="page-delivery.html">Доставка</a></li>
-                                <li><a class="link" href="page-contract.html">Договор оферты</a></li>
-                                <li><a class="link" href="page-policy.html">Политика
-                                        конфиденциальности</a></li>
-                                <li><a class="link" href="page-contacts.html">Контакты</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
+                    </a>
+                </ul>
+                <a class="article-news__link pages-main" href="page-articles.html">все статьи</a>
             </div>
-        </footer>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <div class="wrapper">
+            <div class="footer-content">
+                <div class="footer-contacts desc">
+                    <p>ООО “ФэшнФьюжн”</p>
+                    <p>УНП 99999988</p>
+                    <a href="tel:+375 44 510 61 71">+375 44 510 61 71</a>
+                    <p>Минск, пр. Независимости, 65</p>
+                    <a href="mailto:fashionfusion@gmail.com">fashionfusion@gmail.com</a>
+                    <div class="footer-contacts__imgs">
+                        <a href="#"><img src="images/icons/instagram.svg" alt=""></a>
+                        <a href="#"><img src="images/icons/tiktok.svg" alt=""></a>
+                    </div>
+                </div>
+                <ul class="footer-nav">
+                    <li>
+                        <ul class="footer-list">
+                            <li><a class="link" href="index.html">Главная</a></li>
+                            <li><a class="link" href="page-catalog.html">Каталог</a></li>
+                            <li><a class="link" href="page-catalog.html">Мужчинам</a></li>
+                            <li><a class="link" href="page-catalog.html">Женщинам</a></li>
+                            <li><a class="link" href="page-catalog.html">Новинки</a></li>
+                            <li><a class="link" href="page-catalog.html">Дисконт</a></li>
+                            <li><a class="link" href="page-catalog.html">Одежда</a></li>
+                            <li><a class="link" href="page-catalog.html">Обувь</a></li>
+                            <li><a class="link last" href="page-catalog.html">Аксессуары</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul class="footer-list">
+                            <li><a class="link" href="page-brands.html">Бренды</a></li>
+                            <li><a class="link" href="page-showrooms.html">Шоурумы</a></li>
+                            <li><a class="link" href="page-articles.html">Журнал</a></li>
+                            <li><a class="link last" href="page-about.html">О проекте</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul class="footer-list">
+                            <li><a class="link" href="page-payment.html">Оплата</a></li>
+                            <li><a class="link" href="page-delivery.html">Доставка</a></li>
+                            <li><a class="link" href="page-contract.html">Договор оферты</a></li>
+                            <li><a class="link" href="page-policy.html">Политика
+                                    конфиденциальности</a></li>
+                            <li><a class="link last" href="page-contacts.html">Контакты</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
 </body>
 <script src="js/header.js"></script>
+
 </html>

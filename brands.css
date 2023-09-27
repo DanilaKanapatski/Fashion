@@ -1,5 +1,5 @@
 .brands {
-    margin-top: 24px;
+    margin-top: 0px;
 }
 
 .brands-title {
@@ -27,6 +27,9 @@
 }
 
 .brands-content__link {
+    max-width: 541px;
+    text-align: right;
+    text-decoration: underline;
     margin-top: 20px;
     display: block;
     cursor: pointer;
@@ -70,7 +73,7 @@
     }
     
     .brands-content__title {
-        margin-top: 54px;
+        margin-top: 80px;
         margin-bottom: 23px;
     }
     
@@ -86,5 +89,9 @@
     
     .brands-content__img {
         margin-top: 0;
+    }
+    
+    .vv {
+        margin-top: 54px;
     }
 }

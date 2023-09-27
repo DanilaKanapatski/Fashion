@@ -1,7 +1,63 @@
-.main-slider {
-    display: flex;
-    gap: 22px;
-    justify-content: space-around;
+.image-slider1 {
+    padding: 0 72px;
+}
+
+.swiper-slide img {
+    width: 100%;
+}
+
+.image-slider1 img {
+    border-radius: 5px;
+    border: 0.5px solid var(--light-brown);
+}
+
+.bb {
+    margin-top: 50px;
+    padding: 0 24px;
+}
+
+.image-slider1 .swiper-slide {
+    width: 213px;
+}
+
+.image-slider1 .swiper-button-prev {
+    content: url(/Fashion/images/icons/arr-1.svg);
+    width: 20px;
+    height: 20px;
+    left: 0;
+}
+
+.image-slider1 .swiper-button-next {
+    content: url(/Fashion/images/icons/arr-2.svg);
+    width: 20px;
+    height: 20px;
+    right: 0;
+}
+
+.image-slider2 {
+    padding: 0 34px;
+}
+
+.pp {
+    padding: 0 24px;
+}
+
+.image-slider2 .swiper-slide {
+    width: 400px;
+}
+
+.image-slider2 .swiper-button-prev {
+    content: url(/Fashion/images/icons/arr-1.svg);
+    width: 20px;
+    height: 20px;
+    left: 0;
+}
+
+.image-slider2 .swiper-button-next {
+    content: url(/Fashion/images/icons/arr-2.svg);
+    width: 20px;
+    height: 20px;
+    right: 0;
 }
 
 .main-wrapper {
@@ -13,6 +69,7 @@
 }
 
 .main-content-desc {
+    color: var(--blgray);
     margin-top: 61.15px;
     display: flex;
     flex-direction: column;
@@ -33,6 +90,11 @@
     display: flex;
     gap: 30px;
     justify-content: center;
+}
+
+.main-goods__list img {
+    border-radius: 5px;
+    border: 0.5px solid var(--light-brown);
 }
 
 .main-goods__list-subtitle {
@@ -80,6 +142,7 @@
     margin-top: 103px;
     padding-right: 69px;
     text-align: right;
+    text-decoration: underline;
 }
 
 .main-discount {
@@ -99,6 +162,11 @@
     display: flex;
     gap: 30px;
     justify-content: center;
+}
+
+.main-discount__list img {
+    border-radius: 5px;
+    border: 0.5px solid var(--light-brown);
 }
 
 .main-discount__list-subtitle {
@@ -147,6 +215,7 @@
     margin-top: 104px;
     padding-right: 69px;
     text-align: right;
+    text-decoration: underline;
 }
 
 .main-brands {
@@ -180,6 +249,7 @@
     margin-top: 17px;
     padding-right: 29px;
     text-align: right;
+    text-decoration: underline;
     display: block;
     cursor: pointer;
 }
@@ -191,7 +261,15 @@
 .main-brands__link {
     text-align: center;
     display: block;
-    margin: 107px auto 0;
+    margin: 74px auto 0;
+    text-decoration: underline;
+    color: var(--blgray);
+    font-weight: 500;
+    letter-spacing: 0.28px;
+}
+
+.gg {
+    padding: 0 40px;
 }
 
 .main-showrooms {
@@ -201,7 +279,7 @@
 }
 
 .showrooms-wrapper {
-    padding: 86px 65px 182px 65px;
+    padding: 86px 54px 182px 65px;
 }
 
 .main-showrooms__title {
@@ -209,6 +287,7 @@
 }
 
 .main-showrooms__desc {
+    font-weight: 100;
     color: #FFF;
     margin-top: 39px;
 }
@@ -218,11 +297,12 @@
     margin-top: 37px;
     display: block;
     text-align: right;
+    text-decoration: underline;
 }
 
 .article-news {
-    margin-top: 146px;
-    padding: 0 94px 148px 95px;
+    margin-top: 145px;
+    padding: 0 94px 0 95px;
 }
 
 .article-news__title {
@@ -234,13 +314,17 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 30px;
+    gap: 23px;
+
 }
 
 .article-news__link {
-    margin-top: 81px;
+    padding-right: 70px;
+    text-decoration: underline;
+    margin-top: 52px;
     display: block;
     text-align: right;
+    padding-bottom: 148px;
 }
 
 .article-news__list-data {
@@ -268,18 +352,52 @@
 }
 
 @media screen and (max-width: 900px) {
+    .gg {
+        padding: 0;
+    }
+
+    .bb {
+        margin-top: 54px;
+        padding: 0 10px;
+    }
+
+    .image-slider1 {
+        padding: 0 88px;
+    }
+
+    .image-slider1 .swiper-slide {
+        width: 165px;
+    }
+
     .no {
         display: none;
     }
 
-    .main-slider {
-        margin-top: 90px;
-        padding: 0 10px;
-        display: block;
+    .pp {
+        padding: 0 4px;
+        margin-top: 60px;
     }
 
-    .main-slider img {
-        width: 100%;
+    .image-slider2 {
+        padding: 0 11px;
+    }
+
+    .image-slider2 .swiper-slide {
+        width: 330px;
+    }
+
+    .image-slider2 .swiper-button-prev {
+        content: url(/Fashion/images/icons/arr-1.svg);
+        width: 8px;
+        height: 8px;
+        left: 0;
+    }
+    
+    .image-slider2 .swiper-button-next {
+        content: url(/Fashion/images/icons/arr-2.svg);
+        width: 8px;
+        height: 8px;
+        right: 0;
     }
 
     .main-wrapper {
@@ -366,7 +484,7 @@
     .main-goods__link {
         display: block;
         margin-top: 50px;
-        padding-right: 0px;
+        padding-right: 19px;
         text-align: right;
     }
 
@@ -408,7 +526,7 @@
 
     .main-discount__link {
         margin-top: 50px;
-        padding-right: 10px;
+        padding-right: 29px;
     }
 
     .main-brands {
@@ -469,13 +587,13 @@
         margin-top: 53px;
         display: block;
         text-align: right;
-        padding-right: 20px;
+        padding-right: 30px;
         padding-bottom: 36px;
     }
 
     .article-news {
         margin-top: 114px;
-        padding: 0 10px 112px;
+        padding: 0 10px ;
     }
 
     .article-news__title {
@@ -490,8 +608,9 @@
     .article-news__link {
         margin-top: 74px;
         display: block;
-        padding-right: 20px;
+        padding-right: 30px;
         text-align: right;
+        padding-bottom: 112px;
     }
 
     .brands-desc {

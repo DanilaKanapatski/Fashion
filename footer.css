@@ -1,9 +1,9 @@
 .footer {
-    padding: 77px 83px 105px 120px;
     background: var(--gray);
 }
 
 .footer-content {
+    padding: 77px 83px 105px 120px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -14,7 +14,17 @@
     display: flex;
     flex-direction: column;
     gap: 5px;
+    font-weight: 200;
 }
+
+.footer-contacts a {
+    color: var(--white);
+}
+
+.footer-contacts a:hover {
+    text-decoration: underline;
+}
+
 .footer-nav {
     display: flex;
     gap: 70px;
@@ -36,6 +46,10 @@
     display: inline-block;
 }
 
+.footer-list a:hover {
+    text-decoration: underline;
+}
+
 .footer-list:last-child {
     margin-bottom: 0;
 }
@@ -52,10 +66,11 @@
 
 @media screen and (max-width: 900px) {
     .footer {
-        padding: 58px 67px 63px 31px;
+        padding: 0;
     }
     
     .footer-content {
+        padding: 58px 67px 63px 31px;
         flex-direction: column-reverse;
         gap: 68px;
     }

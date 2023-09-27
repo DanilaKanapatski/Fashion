@@ -3,6 +3,10 @@
     padding: 0 272px 79px 180px;
 }
 
+.delivery :nth-child(3) {
+    margin-top: 30px;
+}
+
 .delivery-desc {
     margin-top: 50px;
 }
@@ -22,6 +26,10 @@
     .delivery {
         margin-top: 24px;
         padding: 0 10px 50px;
+    }
+
+    .delivery :nth-child(3) {
+        margin-top: 30px;
     }
 
     .delivery-title {
